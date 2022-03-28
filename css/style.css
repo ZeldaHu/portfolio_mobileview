@@ -102,6 +102,12 @@ a:visited{color:#db3c86}
     animation-duration:5s;
   }
 
+  @media (prefers-reduced-motion){
+	#me{
+	  animation-name:dissolve;
+	}
+  }
+
   #me2 {
 	transform: rotate(20deg);
   }
